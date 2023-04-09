@@ -8,7 +8,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const main = async () => {
   const extensionDevelopmentPath = path.resolve(__dirname, "..");
   const extensionTestsPath = path.resolve(__dirname, "extension.test.cjs");
-  const workspace = path.resolve(__dirname, "..");
+  const workspace = path.resolve(__dirname, "..", "fixture");
   await runTests({
     version: "1.77.1",
     extensionDevelopmentPath,
