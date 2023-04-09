@@ -6,9 +6,7 @@ tasks:
     command: node scripts/run.js
 
 ports:
-  - port: 3000
-    onOpen: open-preview
   - port: 5900
     onOpen: ignore
   - port: 6080
-    onOpen: ignore
+    onOpen: open-preview
